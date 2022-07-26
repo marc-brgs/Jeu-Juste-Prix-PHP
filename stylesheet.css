@@ -1,28 +1,24 @@
-html {
-	background: #000000;
-}
-
 head {
-	min-height: 100%;
+	height: 100%;
 	size: 120%;
 	background: #000000;
 	background-repeat: repeat;
 }
 
 body {
-	min-height: 100%;
+	height: 100%;
 	size: 120%;
 	padding: 0;
 	background: #ffffff;
    	background-size: 100% auto;
 	background-repeat: no-repeat;
 	font-family: "Heroes-Legend";
+	margin: 0;
 }
 
 #global {
 	width: 1000px;
 	height: auto;
-	min-height: 1200px;
 	text-align: center;
 	margin: auto;
 }
@@ -103,7 +99,10 @@ body {
 #bas {
 	background-color: #050727;
 	margin-top: 75px;
-	min-height: 70px;
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 @font-face {
